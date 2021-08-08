@@ -1,0 +1,15 @@
+@media (min-width: 64rem) {
+    
+};
+
+$breakpoinst-up: (
+    "mobile" : "20.83rem",
+    "tablet" : "64rem",
+    "desktop" : "87.5rem",
+);
+
+@mixin breakpoinst-up($size) {
+    @media (min-width: map-get($breakpoinst-up, $size)) {
+        @content;
+    }
+}
