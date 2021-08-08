@@ -1,14 +1,14 @@
-@import './variables';
+@import "variables";
 
 // REUSABLE
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: $bgColor;
-    font-size: 18px; // 1 rem 18px
-    color: $White;
+  padding: 0;
+  margin: 0;
+  background-color: $bgColor;
+  font-size: 18px; // 1 rem 18px
+  color: $White;
 }
